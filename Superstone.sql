@@ -1,3 +1,10 @@
+
+Data Analysis of Superstone Sales Data
+
+  
+Number of Orders by ShipMode
+
+  
 SELECT
   Ship_Mode,
   COUNT(Order_ID) AS Number_of_Order_ID
@@ -82,5 +89,72 @@ Results -
 
   .......
 
+
+
+SELECT
+  State,
+  AVG(Sales) AS average_of_Sales
+FROM
+  `valid-heuristic-371516.Superstone.Superstone Dataset`
+GROUP BY
+  State
+ORDER BY
+  State asc
+
+  Results - 
+
+  [{
+  "State": "Alabama",
+  "average_of_Sales": "319.84655737704912"
+}, {
+  "State": "Arizona",
+  "average_of_Sales": "157.50893303571428"
+}, {
+  "State": "Arkansas",
+  "average_of_Sales": "194.63549999999992"
+}, {
+  "State": "California",
+  "average_of_Sales": "228.72945102448807"
+}, 
+
+  .......
+
+
+
+
+  SELECT
+  State,
+  MAX(Sales) AS max_Sales,
+  MIN(Sales) AS min_Sales
+FROM
+  `valid-heuristic-371516.Superstone.Superstone Dataset`
+GROUP BY
+  State
+ORDER BY
+  State
+
+
+Results - 
+
+  [{
+  "State": "Alabama",
+  "max_Sales": "3040.0",
+  "min_Sales": "3.62"
+}, {
+  "State": "Arizona",
+  "max_Sales": "1879.96",
+  "min_Sales": "1.408"
+}, {
+  "State": "Arkansas",
+  "max_Sales": "1793.98",
+  "min_Sales": "4.3"
+}, {
+
+  ........
+
+
+
+
+  
 
 
