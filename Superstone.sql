@@ -1,9 +1,13 @@
 
-Data Analysis of Superstone Sales Data
+******Data Analysis of Superstone Sales Data******
+
+
+
+  
 
   
 Number of Orders by ShipMode
-
+    
   
 SELECT
   Ship_Mode,
@@ -151,6 +155,46 @@ Results -
 }, {
 
   ........
+
+
+
+  
+
+SELECT
+  Region,
+  SUM(Profit) AS Total_Profit,
+FROM
+  `valid-heuristic-371516.Superstone.Superstone Dataset`
+WHERE
+  DISCOUNT > 0.2
+GROUP BY
+  Region
+ORDER BY
+  Region
+
+
+
+  Results - 
+
+  [{
+  "Region": "Central",
+  "Total_Profit": "-52392.274400000046"
+}, {
+  "Region": "East",
+  "Total_Profit": "-42088.607599999974"
+}, {
+  "Region": "South",
+  "Total_Profit": "-24880.481799999998"
+}, {
+  "Region": "West",
+  "Total_Profit": "-16014.692199999996"
+}]
+
+
+
+
+
+  
 
 
 
