@@ -1,4 +1,4 @@
-$$  Data\Analysis\of\the\Product\Sales\Data\in\the\United\States  $$
+$$Data\Analysis\of\the\Product\Sales\Data\in\the\United\States$$
 
 
 
