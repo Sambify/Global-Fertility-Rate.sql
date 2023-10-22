@@ -1,14 +1,14 @@
+# Data Analysis of Superstone Sales Data
 
-******Data Analysis of Superstone Sales Data******
-
-
-
-  
+## 📌 Solution
 
   
-Number of Orders by ShipMode
-    
+
   
+### 1. Number of Orders by ShipMode
+
+
+````sql
 SELECT
   Ship_Mode,
   COUNT(Order_ID) AS Number_of_Order_ID
@@ -16,6 +16,9 @@ FROM
   `valid-heuristic-371516.Superstone.Superstone Dataset`
 GROUP BY
   Ship_Mode
+````
+
+**Answer:**
 
 
 
@@ -39,7 +42,7 @@ Results-
 
 
 
-Orders by Ship mode and Order_ID
+2. Orders by Ship mode and Order_ID
   
 SELECT
   Ship_Mode,
@@ -68,7 +71,7 @@ Results -
 }]
 
 
-Orders by Sales between 5 and 200 and Segment is customer
+3. Orders by Sales between 5 and 200 and Segment is customer
   
 
 SELECT
@@ -96,7 +99,7 @@ Results -
 
 
 
-  Average sales by State
+4. Average sales by State
 
 SELECT
   State,
@@ -127,7 +130,7 @@ ORDER BY
   .......
 
 
-Maximum and Minimum Sales by State
+5. Maximum and Minimum Sales by State
 
   SELECT
   State,
@@ -160,7 +163,9 @@ Results -
   ........
 
 
-Region-wise net profit - 
+  
+
+6. Region-wise net profit - 
   
 
 SELECT
@@ -195,8 +200,10 @@ ORDER BY
 
 ........
 
+
   
-Ship Modes where average profit is greater than 500
+  
+7. Ship Modes where average profit is greater than 500
 
   SELECT
   Category,
@@ -219,11 +226,12 @@ HAVING
   "Category": "Technology",
   "Average_profit": "78.75200221981595"
 }]
-
-
+...........
 
   
-  Number of orders where the sum of sales is greater than 100 between 11-12-2016 and 11/17/2017
+
+  
+  8. Number of orders where the sum of sales is greater than 100 between 11-12-2016 and 11/17/2017
   
 
   SELECT
@@ -256,7 +264,6 @@ HAVING
 
 
 
-  
   
 
 
