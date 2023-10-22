@@ -39,7 +39,7 @@ Results-
 
 
 
-
+Orders by Ship mode and Order_ID
   
 SELECT
   Ship_Mode,
@@ -51,7 +51,7 @@ GROUP BY
   Ship_Mode
 
 
-
+Results -
   
 [{
   "Ship_Mode": "Standard Class",
@@ -68,7 +68,8 @@ GROUP BY
 }]
 
 
-
+Orders by Sales between 5 and 200 and Segment is customer
+  
 
 SELECT
   DISTINCT Order_ID,
@@ -94,6 +95,8 @@ Results -
   .......
 
 
+
+  Average sales by State
 
 SELECT
   State,
@@ -124,7 +127,7 @@ ORDER BY
   .......
 
 
-
+Maximum and Minimum Sales by State
 
   SELECT
   State,
@@ -157,7 +160,7 @@ Results -
   ........
 
 
-
+Region-wise net profit - 
   
 
 SELECT
