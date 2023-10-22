@@ -42,8 +42,9 @@ Results-
 
 
 
-2. Orders by Ship mode and Order_ID
+### 2. Orders by Ship mode and Order_ID
   
+````sql
 SELECT
   Ship_Mode,
   COUNT(Order_ID) AS Number_of_Order_ID
@@ -52,7 +53,9 @@ FROM
     WHERE Sales BETWEEN 5 AND 200
 GROUP BY
   Ship_Mode
+````
 
+**Answer:**
 
 Results -
   
@@ -71,9 +74,9 @@ Results -
 }]
 
 
-3. Orders by Sales between 5 and 200 and Segment is customer
+### 3. Orders by Sales between 5 and 200 and Segment is customer
   
-
+````sql
 SELECT
   DISTINCT Order_ID,
 FROM
@@ -82,6 +85,9 @@ WHERE
   Sales BETWEEN 5
   AND 200
   AND Segment = 'Consumer'
+````
+
+**Answer:**
 
 
 Results -
@@ -99,8 +105,10 @@ Results -
 
 
 
-4. Average sales by State
+### 4. Average sales by State
 
+
+````sql
 SELECT
   State,
   AVG(Sales) AS average_of_Sales
@@ -110,6 +118,11 @@ GROUP BY
   State
 ORDER BY
   State asc
+
+````
+
+**Answer:**
+
 
   Results - 
 
@@ -130,7 +143,9 @@ ORDER BY
   .......
 
 
-5. Maximum and Minimum Sales by State
+### 5. Maximum and Minimum Sales by State
+
+````sql
 
   SELECT
   State,
@@ -142,6 +157,9 @@ GROUP BY
   State
 ORDER BY
   State
+````
+
+**Answer:**
 
 
 Results - 
@@ -165,8 +183,10 @@ Results -
 
   
 
-6. Region-wise net profit - 
+### 6. Region-wise net profit - 
   
+
+````sql
 
 SELECT
   Region,
@@ -179,7 +199,9 @@ GROUP BY
   Region
 ORDER BY
   Region
+````
 
+**Answer:**
 
 
   Results - 
@@ -203,7 +225,9 @@ ORDER BY
 
   
   
-7. Ship Modes where average profit is greater than 500
+### 7. Ship Modes where average profit is greater than 500
+
+````sql
 
   SELECT
   Category,
@@ -214,7 +238,10 @@ GROUP BY
   Category
 HAVING
   AVG(Profit) > 10
-  
+  ````
+
+**Answer:**
+
 
   Results - 
 
@@ -231,8 +258,9 @@ HAVING
   
 
   
-  8. Number of orders where the sum of sales is greater than 100 between 11-12-2016 and 11/17/2017
+  ### 8. Number of orders where the sum of sales is greater than 100 between 11-12-2016 and 11/17/2017
   
+````sql
 
   SELECT
   Category,
@@ -246,6 +274,10 @@ GROUP BY
   Category
 HAVING
   SUM(Sales) > 100
+````
+
+
+**Answer:**
 
 
   Results -
