@@ -196,9 +196,67 @@ ORDER BY
 ........
 
   
+Ship Modes where average profit is greater than 500
+
+  SELECT
+  Category,
+  AVG(Profit) AS Average_profit
+FROM
+  `valid-heuristic-371516.Superstone.Superstone Dataset`
+GROUP BY
+  Category
+HAVING
+  AVG(Profit) > 10
+  
+
+  Results - 
+
+
+[{
+  "Category": "Office Supplies",
+  "Average_profit": "20.327049585131093"
+}, {
+  "Category": "Technology",
+  "Average_profit": "78.75200221981595"
+}]
 
 
 
+  
+  Number of orders where the sum of sales is greater than 100 between 11-12-2016 and 11/17/2017
+  
+
+  SELECT
+  Category,
+  COUNT(Order_ID) AS Number_of_orders
+FROM
+  `valid-heuristic-371516.Superstone.Superstone Dataset`
+WHERE
+  Order_Date BETWEEN '11-12-2016'
+  AND '11/17/2017'
+GROUP BY
+  Category
+HAVING
+  SUM(Sales) > 100
+
+
+  Results -
+
+
+[{
+  "Category": "Office Supplies",
+  "Number_of_orders": "144"
+}, {
+  "Category": "Technology",
+  "Number_of_orders": "59"
+}, {
+  "Category": "Furniture",
+  "Number_of_orders": "55"
+}]
+
+
+
+  
   
 
 
