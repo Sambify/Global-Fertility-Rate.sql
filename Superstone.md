@@ -50,7 +50,9 @@ SELECT
   COUNT(Order_ID) AS Number_of_Order_ID
 FROM
   `valid-heuristic-371516.Superstone.Superstone Dataset`
-    WHERE Sales BETWEEN 5 AND 200
+WHERE
+  Sales BETWEEN 5
+  AND 200
 GROUP BY
   Ship_Mode
 ````
@@ -74,7 +76,7 @@ Results -
 }]
 
 
-### 3. Orders by Sales between 5 and 200 and Segment is customer
+### 3. Orders by Sales between 5 and 200 and Segment is consumer
   
 ````sql
 SELECT
