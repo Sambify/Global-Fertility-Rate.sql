@@ -42,21 +42,8 @@ GROUP BY
 
 **Answer:**
 
-Results -
-  
-[{
-  "Ship_Mode": "Standard Class",
-  "Number_of_Order_ID": "4106"
-}, {
-  "Ship_Mode": "Second Class",
-  "Number_of_Order_ID": "1350"
-}, {
-  "Ship_Mode": "Same Day",
-  "Number_of_Order_ID": "386"
-}, {
-  "Ship_Mode": "First Class",
-  "Number_of_Order_ID": "1066"
-}]
+<img width ="350" alt="image" src= "https://github.com/Sambify/Superstone-data-analysis/blob/110330c7eb68565c5318dd6758c8d3ba8085ce63/download.jpg">
+
 
 
 
@@ -77,19 +64,7 @@ WHERE
 **Answer:**
 
 
-Results -
-
-[{
-  "Order_ID": "CA-2017-127656"
-}, {
-  "Order_ID": "CA-2017-160927"
-}, {
-  "Order_ID": "US-2017-106705"
-}, {
-  "Order_ID": "CA-2016-167584"
-
-  .......
-
+<img width ="350" alt="image" src= "https://github.com/Sambify/Superstone-data-analysis/blob/110330c7eb68565c5318dd6758c8d3ba8085ce63/download%20%201.jpg">
 
 
 
@@ -113,24 +88,7 @@ ORDER BY
 **Answer:**
 
 
-  Results - 
-
-  [{
-  "State": "Alabama",
-  "average_of_Sales": "319.84655737704912"
-}, {
-  "State": "Arizona",
-  "average_of_Sales": "157.50893303571428"
-}, {
-  "State": "Arkansas",
-  "average_of_Sales": "194.63549999999992"
-}, {
-  "State": "California",
-  "average_of_Sales": "228.72945102448807"
-}, 
-
-  .......
-
+<img width ="350" alt="image" src= "https://github.com/Sambify/Superstone-data-analysis/blob/110330c7eb68565c5318dd6758c8d3ba8085ce63/download%202.jpg">
 
 
 
@@ -152,24 +110,7 @@ ORDER BY
 
 **Answer:**
 
-
-Results - 
-
-  [{
-  "State": "Alabama",
-  "max_Sales": "3040.0",
-  "min_Sales": "3.62"
-}, {
-  "State": "Arizona",
-  "max_Sales": "1879.96",
-  "min_Sales": "1.408"
-}, {
-  "State": "Arkansas",
-  "max_Sales": "1793.98",
-  "min_Sales": "4.3"
-}, {
-
-  ........
+<img width ="350" alt="image" src= "https://github.com/Sambify/Superstone-data-analysis/blob/110330c7eb68565c5318dd6758c8d3ba8085ce63/download%203.jpg">
 
 
   
@@ -195,24 +136,7 @@ ORDER BY
 **Answer:**
 
 
-  Results - 
-
-  [{
-  "Region": "Central",
-  "Total_Profit": "-52392.274400000046"
-}, {
-  "Region": "East",
-  "Total_Profit": "-42088.607599999974"
-}, {
-  "Region": "South",
-  "Total_Profit": "-24880.481799999998"
-}, {
-  "Region": "West",
-  "Total_Profit": "-16014.692199999996"
-}]
-
-........
-
+<img width ="350" alt="image" src= "https://github.com/Sambify/Superstone-data-analysis/blob/110330c7eb68565c5318dd6758c8d3ba8085ce63/download%204.jpg">
 
   
   
@@ -233,21 +157,9 @@ HAVING
 
 **Answer:**
 
-
-  Results - 
-
-
-[{
-  "Category": "Office Supplies",
-  "Average_profit": "20.327049585131093"
-}, {
-  "Category": "Technology",
-  "Average_profit": "78.75200221981595"
-}]
-...........
-
+<img width ="350" alt="image" src= " https://github.com/Sambify/Superstone-data-analysis/blob/110330c7eb68565c5318dd6758c8d3ba8085ce63/download%205.jpg">
   
-
+**
   
   ### 8. Number of orders where the sum of sales is greater than 100 between 11-12-2016 and 11/17/2017
   
@@ -270,23 +182,7 @@ HAVING
 
 **Answer:**
 
-
-  Results -
-
-
-[{
-  "Category": "Office Supplies",
-  "Number_of_orders": "144"
-}, {
-  "Category": "Technology",
-  "Number_of_orders": "59"
-}, {
-  "Category": "Furniture",
-  "Number_of_orders": "55"
-}]
-
-
-
+<img width ="350" alt="image" src= " https://github.com/Sambify/Superstone-data-analysis/blob/110330c7eb68565c5318dd6758c8d3ba8085ce63/download%206.jpg">
   
 
 
