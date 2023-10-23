@@ -20,27 +20,9 @@ GROUP BY
 
 **Answer:**
 
-<img width ="383" alt="image" src= "https://github.com/Sambify/Superstone-data-analysis/blob/3e46dde348b70228277e8c1db7e56218e70c20bc/download%20(1).png">
+<img width ="350" alt="image" src= "https://github.com/Sambify/Superstone-data-analysis/blob/3e46dde348b70228277e8c1db7e56218e70c20bc/download%20(1).jpg">
 
-Results-
-
-[{
-  "Ship_Mode": "Standard Class",
-  "Number_of_Order_ID": "5968"
-}, {
-  "Ship_Mode": "Second Class",
-  "Number_of_Order_ID": "1945"
-}, {
-  "Ship_Mode": "Same Day",
-  "Number_of_Order_ID": "543"
-}, {
-  "Ship_Mode": "First Class",
-  "Number_of_Order_ID": "1538"
-}]
-
-
-
-
+***
 
 ### 2. Orders by Ship mode and Order_ID
   
