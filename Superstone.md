@@ -20,7 +20,7 @@ GROUP BY
 
 **Answer:**
 
-<img width="141" alt="image" src= https://github.com/Sambify/Superstone-data-analysis/blob/3e46dde348b70228277e8c1db7e56218e70c20bc/download%20(1).png
+<img width ="383" alt="image" src= "https://github.com/Sambify/Superstone-data-analysis/blob/3e46dde348b70228277e8c1db7e56218e70c20bc/download%20(1).png">
 
 Results-
 
