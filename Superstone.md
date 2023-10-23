@@ -45,7 +45,7 @@ GROUP BY
 <img width ="350" alt="image" src= "https://github.com/Sambify/Superstone-data-analysis/blob/110330c7eb68565c5318dd6758c8d3ba8085ce63/download.jpg">
 
 
-
+***
 
 
 ### 3. Orders by Sales between 5 and 200 and Segment is consumer
@@ -66,7 +66,7 @@ WHERE
 
 <img width ="350" alt="image" src= "https://github.com/Sambify/Superstone-data-analysis/blob/110330c7eb68565c5318dd6758c8d3ba8085ce63/download%20%201.jpg">
 
-
+***
 
 ### 4. Average sales by State
 
@@ -90,7 +90,7 @@ ORDER BY
 
 <img width ="350" alt="image" src= "https://github.com/Sambify/Superstone-data-analysis/blob/110330c7eb68565c5318dd6758c8d3ba8085ce63/download%202.jpg">
 
-
+***
 
 ### 5. Maximum and Minimum Sales by State
 
@@ -112,7 +112,7 @@ ORDER BY
 
 <img width ="350" alt="image" src= "https://github.com/Sambify/Superstone-data-analysis/blob/110330c7eb68565c5318dd6758c8d3ba8085ce63/download%203.jpg">
 
-
+***
   
 
 ### 6. Region-wise net profit - 
@@ -138,6 +138,7 @@ ORDER BY
 
 <img width ="350" alt="image" src= "https://github.com/Sambify/Superstone-data-analysis/blob/110330c7eb68565c5318dd6758c8d3ba8085ce63/download%204.jpg">
 
+  ***
   
   
 ### 7. Ship Modes where average profit is greater than 500
@@ -157,9 +158,11 @@ HAVING
 
 **Answer:**
 
-<img width ="350" alt="image" src= " https://github.com/Sambify/Superstone-data-analysis/blob/110330c7eb68565c5318dd6758c8d3ba8085ce63/download%205.jpg">
+<img width ="350" alt="image" src= "https://github.com/Sambify/Superstone-data-analysis/blob/110330c7eb68565c5318dd6758c8d3ba8085ce63/download%205.jpg">
+
+
+  ***
   
-**
   
   ### 8. Number of orders where the sum of sales is greater than 100 between 11-12-2016 and 11/17/2017
   
@@ -182,7 +185,7 @@ HAVING
 
 **Answer:**
 
-<img width ="350" alt="image" src= " https://github.com/Sambify/Superstone-data-analysis/blob/110330c7eb68565c5318dd6758c8d3ba8085ce63/download%206.jpg">
+<img width ="250" alt="image" src= "https://github.com/Sambify/Superstone-data-analysis/blob/110330c7eb68565c5318dd6758c8d3ba8085ce63/download%206.jpg">
   
 
 
