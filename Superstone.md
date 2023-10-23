@@ -57,6 +57,7 @@ GROUP BY
   Ship_Mode
 ````
 
+
 **Answer:**
 
 Results -
@@ -74,6 +75,8 @@ Results -
   "Ship_Mode": "First Class",
   "Number_of_Order_ID": "1066"
 }]
+
+
 
 
 ### 3. Orders by Sales between 5 and 200 and Segment is consumer
@@ -107,6 +110,7 @@ Results -
 
 
 
+
 ### 4. Average sales by State
 
 
@@ -122,6 +126,7 @@ ORDER BY
   State asc
 
 ````
+
 
 **Answer:**
 
@@ -143,6 +148,8 @@ ORDER BY
 }, 
 
   .......
+
+
 
 
 ### 5. Maximum and Minimum Sales by State
